@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-body">
+        <div class="heading">New Employee</div>
+        <form action="" name="form">
+            <div class="form-2">
+            <div class="input-s">
+                <div class="name">Enter Name: </div>
+                <div class="name-in"><input type="text" id="name-input" name="name"></div>
+            </div>
+            <div class="input-s">
+                <div class="name">Enter Profession: </div>
+                <div class="name-in"><input type="text" id="pro-input" name="Profession"></div>
+            </div>
+            <div class="input-s">
+                <div class="name">Enter Age: </div>
+                <div class="name-in"><input type="text" id="age-input" name="age"></div>
+            </div>
+        </div>
+        <div class="submit-button"><button id="add-user">Add User</button></div>
+        </form>
+    </div>
+    <div class="error" id="errorOne"></div>
+    <div class="employee-chart">
+        <div class="ec-heading">Added Employee</div>
+        <div class="ec-chart" id="eChart">You have 0 Employee</div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
